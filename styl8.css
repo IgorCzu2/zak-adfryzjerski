@@ -1,0 +1,74 @@
+* {
+    font-family: Garamond;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+#lewy {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+}
+
+#lewy1 {
+    background-color: #4cdb09;
+    font-size: 150%;
+}
+
+#lewy2 {
+    height: 420px;
+}
+
+#prawy  {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+#prawy1,
+#prawy2 {
+    background-color: #08f5cd;
+    color: #000000;
+    height: 420px;
+}
+
+#xddd {
+    background-color: #47f304;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+}
+
+tr:hover {
+    background-color: rgb(6, 8, 8);
+    color: white;
+}
+
+h4 {
+    font-size: 220%;
+}
+
+img {
+    padding: 30px;
+    border-radius: 60px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+input[type="radio"] {
+    margin: 7px;
+}
